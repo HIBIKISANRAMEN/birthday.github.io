@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+body {
+    background-color:black;
+    h1{
+        position: absolute;
+        top:15%;
+        left:40%;
+        font-size:50px;
+        color: black;
+        font-family: "游明朝","Yu Mincho"; font-weight: lighter;
+        animation: fade 5.0s linear 5s 1 normal forwards;
+    }
+}
+@keyframes fade {
+    from { opacity: 0;
+            color:black;}
+    to { opacity: 1;
+         color:white;}
+}
