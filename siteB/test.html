@@ -1,0 +1,54 @@
+<title>お金たくさんほしい</title>
+<head>
+    <link rel="stylesheet" href="test.css">
+</head>
+<body>
+    <div class ="header">
+        <img src =".\img\img1.png">
+        <h1>星とのランデヴーを体験しよう</h1>
+        <h2>宇宙を世界に広げたい</h2>
+    </div>
+    <h3>※これは友達のために作ったジョークサイトです</h3>
+    <div style="position:absolute; animation: fade 3.5s ease-in-out 0s 1 normal forwards; top:40%; left:40%"> 
+        <a href="remote.html"><img src =".\img\img2.png"></a></div>
+</body>
+<p1><font>私たちは望ましい答えを持っている<br>魂を次のステージへ昇華する</font></p1>
+<p2><br>キラキラエネルギーによる秩序</p2>
+<p3 style="position:absolute;top:165%;left:0%;font-size:200%;color:whitesmoke;">
+    <br>我々人類は普段からハイヤーセルフに到達すること
+    <br>を試みています。
+    <br>しかし彼らの全貌を知ることはできません。
+    <br>精神世界に強引にリンクしようとすると
+    <br>悪性チャクラに取り込まれてしまいます。
+    <br>なぜなら、魂の周波数が合っていないからです。
+    <br>しかし長年の研究の結果、キラキラが生み出す
+    <br>神秘エネルギーはエーテルと同等の物質であり
+    <br>レインボーチルドレンへと生まれ変わるための
+    <br>エンパワリングを行います。
+    <br>セミナーに通い、アカシックレコードを発見しま
+    <br>しょう</p3>
+<img src =".\img\img3.png" style="position:absolute;top:165%; left:60%;">
+
+<img src =".\img\img4.png" width="50%" height="38%" style ="position:absolute;top:230%; left:60%;">
+<h style="position:absolute;top:230%; left:60%;font-size:200%;">セミナーに登録しましょう</h>
+<p style="position:absolute;top:240%; left:60%;font-size:150%;"><label>メールアドレス：<input type="text" id="mail"></label></p>
+<a style="position:absolute;top:250%; left:60%;font-size:150%;"><label>パスワード：<input type="text" id="pass"></label></a>
+<b style="position:absolute;top:251%; left:87%;font-size:100%;"><button onClick="letsgo()" style="size:200%;">登録</button></b>
+<b id="ramen"></b>
+<script>
+function letsgo(event){
+    if(mail.value != "" && pass.value != ""){
+        sagi.innerText = '会員登録完了しました!ただちに\nお布施200万円を用意してください';
+        sagi.style = "position:absolute;top:255%; left:60%;font-size:150%;";
+    }else{
+        sagi.style.color = "red";
+        sagi.innerText = 'メールアドレスが不明もしくはパスワードが違います';
+        sagi.style = "position:absolute;top:255%; left:60%;font-size:150%;";
+    }
+}
+
+let mail = document.getElementById('mail');
+let pass = document.getElementById('pass');
+let sagi = document.getElementById('ramen');
+</script>
+
